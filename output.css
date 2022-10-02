@@ -407,3 +407,16 @@ img,video {
 	color: rgb(255,255,255);
 	font-size: 60px;
 }
+
+.blue-abrv {
+    background: #0000;
+    color: #ff0000;
+    --tw-text-opacity: 1;
+    text-size-adjust: 150px;
+    font-size: 48px;
+    font-family: 'Montserrat', sans-serif, Futura, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.errormsg {
+    font-weight: 610;
+    color: #fff;
+}
