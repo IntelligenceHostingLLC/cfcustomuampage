@@ -1,0 +1,71 @@
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Error 500s Handler</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700" rel="stylesheet">
+    <link rel="stylesheet" href="bootstrap-grid.min.css">
+    <link rel="stylesheet" href="bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="error.css">
+</head>
+<style>
+    html {
+        overflow: auto;
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+</style>
+<body>
+    <div id="page-error">
+        <div class="navbar">
+            <div>
+                <img class="logo-nav" src="" />
+            </div>
+        </div>
+        <section>
+            <div class="container">
+                <div class="row row-cont">
+                    <div class="col-md-8 col-sm-10 align-auto">
+                        <h1>
+                            Error
+                            <span class="blue-abrv">[<h1>429</h1>]</span>
+                            <br/>
+                            <span><h1 class="blue-abrv">Ratelimited</h1></span>
+                        </h1>
+                        <p class="error-msg">The website reported an error while processing your request.</p>
+                        <table id="diagnostics">
+                            <tr>
+                                <td>Edge ID</td>
+                                <td>Germany-Edge-Zone2</td>
+                            </tr>
+                            <tr>
+                                <td>Info:</td>
+                                <td>You are being ratelimited. Slow down.</td>
+                            </tr>
+                            <tr>
+                                <td>URL</td>
+                                <td>https://cryptware.org</td>
+                            </tr>
+                        </table>
+                        <br />
+                        <div>
+                            <h2>We can help</h2>
+                            <ul id="solutions">
+                                <li>Please try again in a few minutes.</li><li>Stop refresing the page.</li><li>Your HTTP_headers got ratelimited.</li><li>Take a chill pill and go grab a coffee.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-10 offset-lg-1 offset-md-0 error-img flexible">
+                        <img class="align-auto" src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fgifimage.net%2Fwp-content%2Fuploads%2F2017%2F08%2Fskull-gif-15.gif&f=1&nofb=1&ipt=ac1559bf2a652923f829417e2e44b526653356b061a9d483fb51bc01d9f26946&ipo=images" />
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>
